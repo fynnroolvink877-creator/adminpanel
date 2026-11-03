@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "adminpanel"
+version = "1.0.0"
+displayName = "Admin Panel"
+description = '''
+OP-only troll panel. Gebruik /ap om een speler te kiezen en te trollen.
+'''
+
+[[dependencies.adminpanel]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.adminpanel]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
